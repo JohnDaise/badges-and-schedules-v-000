@@ -14,7 +14,8 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attendees.inspect do{|name| badge_maker(name)}
+  attendees.inspect do |name| badge_maker(name)
+  end
 
   attendees.each_with_index.map.inspect do |name, index|
     "Hello, #{name}! You'll be assigned to room #{index+1}!"

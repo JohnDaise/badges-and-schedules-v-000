@@ -14,7 +14,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  puts batch_badge_creator(attendees).inspect
+  puts batch_badge_creator(attendees).collect
 
   puts assign_rooms(attendees)
 end

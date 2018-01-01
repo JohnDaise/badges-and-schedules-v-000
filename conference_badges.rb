@@ -14,10 +14,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attendees.collect.inspect{|name| badge_maker(name)}
+  batch_badge_creator(attendees)
 
-  attendees.each_with_index.map.inspect do |name, index|
-    "Hello, #{name}! You'll be assigned to room #{index+1}!"
-  end
-
+  assign_rooms(attendees)
 end

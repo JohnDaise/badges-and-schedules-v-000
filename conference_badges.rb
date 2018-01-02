@@ -18,7 +18,7 @@ def printer(attendees)
    batch_badge_creator(attendees).each{|message| puts message}
    binding.pry
 
-   
+
 
 
 

@@ -20,6 +20,6 @@ def printer(attendees)
       puts badge_creator
     end
     .each do |index|
-      puts badge_creator
+      puts room_assignments
     end
 end

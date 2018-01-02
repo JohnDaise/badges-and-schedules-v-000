@@ -14,6 +14,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attendees.collect.inspect {|name| puts badge_maker(name)}
+  attendees.inspect {|name| puts badge_maker(name)}
 #  puts assign_rooms(attendees)
 end

@@ -18,7 +18,6 @@ def printer(attendees)
   room_assignments = assign_rooms(attendees)
     attendees.each do |index|
       puts badge_creator
-      puts room_assignment
     end
 
 end
